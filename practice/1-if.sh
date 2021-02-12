@@ -1,4 +1,4 @@
 #!/bin/bash
-if "$USER" == "root"]; then
+if [ "$USER" == "root" ]; then
   echo ur root user
 fi
